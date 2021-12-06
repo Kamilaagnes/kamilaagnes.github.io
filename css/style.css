@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*margin reset, para todo o corpo*/
+}
+
+html, body{
+    height: 100%;
+}
+/*informa para o browser que o body tem um tamanho de 100% */
+
+body{
+    font-family:'Raleway', sans-serif;;
+    color: white;
+    background: linear-gradient(176deg, rgba(61,221,198,1) 0%, rgba(22,84,75,1) 100% );
+    background-repeat: repeat;
+}
+.avatar{
+    width: 80px;
+    border-radius: 122px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1{
+    font-family: 'Sofia', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social{
+    display: flex; /* faz todos os "filhos ficarem lado a lado*/
+    justify-content: space-around; 
+    list-style: none;
+    margin: 20px 0;
+
+} 
+
+.social img {
+    width: 33px;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    margin: 12px 20px; /*espaçamento*/
+}
+
+.links li a {
+    background: white;
+    padding: 15px 20px; /*espacamento*/
+    display: block;
+    border-radius: 4px; /*borda ficar redonda*/
+    text-decoration: none; /*remover linha debaixo do link*/
+    color: rgba(22,84,75,1);
+    font-weight: bold;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.925);
+    
+}
+
+.links li a span{
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
+
+.links-two{
+    list-style: none;
+}
+
+.links-two li{
+    margin: 30px 20px;
+}
+
+.links-two li a{
+    background: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgba(22,84,75,1);
+    font-weight: bold;
+    box-shadow: 0 0 25px white;
+}
+
+.links-two li a span{
+    color: grey;    
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/*tag "a" é inline, fica tudo na mesma linha*/
+/*comportamento inline nao tem o desenvolviemnto de um BLOCK, nao consegue ter margem, ficam todos lados a lados, precisa transformar em block*/
